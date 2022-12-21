@@ -5,7 +5,9 @@
         a: string
     Returns:
         length of string */
-
+  
 void main() {
   // write your code here
+  String a="python";
+  print (a.length);
 }

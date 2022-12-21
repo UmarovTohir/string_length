@@ -9,4 +9,14 @@
 */
 void main() {
   // write your code here
+  String s1="code";
+  String s2="pyhton";{
+if(s1.length > s2.length){
+print(s2);
+}
+if(s2.length > s1.length){
+  print (s1);
+}
+}
+  
 }

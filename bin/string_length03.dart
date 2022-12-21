@@ -9,4 +9,10 @@
 */
 void main() {
   // write your code here
+   String a="wode";
+   String b="exam";
+   if(a.length==b.length)
+ print(a.isNotEmpty);
+ if(a.length!=b.length)
+ print(b.isEmpty);
 }

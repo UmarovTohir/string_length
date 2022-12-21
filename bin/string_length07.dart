@@ -6,7 +6,16 @@
         s2: string
     Returns:
         string
-*/
+*/ String func(String s1 ,String s2){
+  if(s1.length%2==0){
+    return s1;
+  } return ' ';
+  if(s2.length%2==0){
+    return s2;
+  }return ' ';
+}
 void main() {
   // write your code here
+
+  print (func("code" ,"salom") );
 }

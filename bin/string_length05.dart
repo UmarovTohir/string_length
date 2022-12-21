@@ -7,6 +7,10 @@
     Returns:
         total length of strings
 */
+
 void main() {
   // write your code here
+  String s1="code";
+  String s2="pyhton";
+print (s1.length+s2.length);
 }
