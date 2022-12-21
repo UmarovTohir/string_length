@@ -5,9 +5,12 @@
         a: string
     Returns:
         length of string */
-  
+  int func(String text){
+    int a=text.length;
+    return (a);
+  }
 void main() {
   // write your code here
-  String a="python";
-  print (a.length);
+ 
+  print (func('code'));
 }

@@ -9,5 +9,5 @@
 void main() {
   // write your code here
   String a="code";
-  print(a.isNotEmpty);
+  print(a.length);
 }
