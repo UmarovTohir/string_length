@@ -5,9 +5,15 @@
         a: string
     Returns:
         True or False
-     */
+     */bool func(String text){
+      if(text.length%2==0){
+        return true;
+      }
+      return false;
+      }
+     
 void main() {
   // write your code here
-  String a="code";
-  print(a.length);
+  
+  print(func('hello'));
 }

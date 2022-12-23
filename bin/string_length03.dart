@@ -6,13 +6,14 @@
         b: string
     Returns:
         True or False
-*/
+*/bool func(String a, String b){
+  if(a.length==b.length){
+    return true;
+  }return false;
+}
 void main() {
   // write your code here
-   String a="wode";
-   String b="exam";
-   if(a.length==b.length)
- print(a.isNotEmpty);
- if(a.length!=b.length)
- print(b.isEmpty);
+   
+   
+ print(func('wode','exam'));
 }

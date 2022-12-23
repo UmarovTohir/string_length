@@ -7,10 +7,11 @@
     Returns:
         total length of strings
 */
-
+int func(String s1,String s2){
+  return s1.length+s2.length;
+}
 void main() {
   // write your code here
-  String s1="code";
-  String s2="pyhton";
-print (s1.length+s2.length);
+  
+print (func('code','pyhton'));
 }
