@@ -9,7 +9,7 @@
      */String func(String s1,String s2){
       if(s1.length > s2.length){
         return s1+s2;
-      }return s2;
+      }return s1;
      }
 void main() {
   // write your code here
